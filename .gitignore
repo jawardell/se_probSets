@@ -21,3 +21,14 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.metadata/
+*.metadata*
+*.recommenders*
+hw01/.settings
+*.settings*
+hw01/bin/*
+*bin*
+*classpath*
+hw01/project/*
+*swp*
+
