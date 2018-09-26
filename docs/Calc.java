@@ -11,11 +11,10 @@ public class Calc {
 		int i = 0;
 		while(s.hasNext()) {
 			String[] o = s.nextLine().split(",");
-			double[] a = {Double.parseDouble(o[1]),
-			  Double.parseDouble(o[1]),Double.parseDouble(o[1]),
-			  Double.parseDouble(o[1]),Double.parseDouble(o[1]),
-			  Double.parseDouble(o[1]),Double.parseDouble(o[1]),
-			  Double.parseDouble(o[1])};
+			double[] a = {0, Double.parseDouble(o[1]),
+			  Double.parseDouble(o[2]),Double.parseDouble(o[3]),
+			  Double.parseDouble(o[4]),Double.parseDouble(o[5]),
+			  Double.parseDouble(o[6]),Double.parseDouble(o[7])};
 
 			if((a[1] + a[2] + a[3] + a[4] + a[5]) > 40) {
 				totals[i][0] += (a[1] + a[2] + a[3] + a[4] + a[5])*15.0 + (a[6] + a[7])*20.0;
