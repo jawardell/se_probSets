@@ -29,6 +29,6 @@ hw01/.settings
 hw01/bin/*
 *bin*
 *classpath*
-hw01/project/*
+hw01/.project/*
 *swp*
 
