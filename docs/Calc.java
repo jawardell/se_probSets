@@ -17,7 +17,8 @@ public class Calc {
 			  Double.parseDouble(o[6]),Double.parseDouble(o[7])};
 
 			if((a[1] + a[2] + a[3] + a[4] + a[5]) > 40) {
-				totals[i][0] += (a[1] + a[2] + a[3] + a[4] + a[5])*15.0 + (a[6] + a[7])*20.0;
+				double overtime = (a[1] + a[2] + a[3] + a[4] + a[5]) - 40.0;
+				totals[i][0] += (overtime*15.0 + 400.0) + (a[6] + a[7])*20.0;
 			} else {
 				totals[i][0] += (a[1] + a[2] + a[3] + a[4] + a[5])*10.0 + (a[6] + a[7])*20.0;
 			}
