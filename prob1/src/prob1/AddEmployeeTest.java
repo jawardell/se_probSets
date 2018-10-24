@@ -3,8 +3,8 @@ package prob1;
 import org.junit.*;
 
 public class AddEmployeeTest {
-	Employee emp = new Employee("Bob", 17);
 	Store store = new Store();
+	String[] names = {"Joanne", "KD", "Bob", "Jane"};
 	
 	@Test
 	public void test1() {
@@ -49,6 +49,10 @@ public class AddEmployeeTest {
 	@Test
 	public void test9() {
 		
+	}
+	
+	int rand() {
+		return (int)(Math.random()*4);
 	}
 	
 }
