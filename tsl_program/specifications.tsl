@@ -1,0 +1,63 @@
+
+Test Case 1  		(Key = 1.1.1.2.)
+   NumEmps :  PositionsRemaining
+   Emps    :  Full
+   E       :  Null
+   Added   :  Fail
+
+
+Test Case 2  		(Key = 1.1.2.2.)
+   NumEmps :  PositionsRemaining
+   Emps    :  Full
+   E       :  NotNull
+   Added   :  Fail
+
+
+Test Case 3  		(Key = 1.2.1.2.)
+   NumEmps :  PositionsRemaining
+   Emps    :  NotFull
+   E       :  Null
+   Added   :  Fail
+
+
+Test Case 4  		(Key = 1.2.2.1.)
+   NumEmps :  PositionsRemaining
+   Emps    :  NotFull
+   E       :  NotNull
+   Added   :  Success
+
+
+Test Case 5  		(Key = 1.2.2.2.)
+   NumEmps :  PositionsRemaining
+   Emps    :  NotFull
+   E       :  NotNull
+   Added   :  Fail
+
+
+Test Case 6  		(Key = 2.1.1.2.)
+   NumEmps :  NoPositionsRemaining
+   Emps    :  Full
+   E       :  Null
+   Added   :  Fail
+
+
+Test Case 7  		(Key = 2.1.2.2.)
+   NumEmps :  NoPositionsRemaining
+   Emps    :  Full
+   E       :  NotNull
+   Added   :  Fail
+
+
+Test Case 8  		(Key = 2.2.1.2.)
+   NumEmps :  NoPositionsRemaining
+   Emps    :  NotFull
+   E       :  Null
+   Added   :  Fail
+
+
+Test Case 9  		(Key = 2.2.2.2.)
+   NumEmps :  NoPositionsRemaining
+   Emps    :  NotFull
+   E       :  NotNull
+   Added   :  Fail
+

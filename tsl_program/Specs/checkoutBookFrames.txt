@@ -1,0 +1,41 @@
+
+Test Case 1  		<error>
+   Book Status :  Invalid
+
+
+Test Case 2  		<error>
+   Card Status :  Invalid
+
+
+Test Case 3  		<single>
+   Member Status :  Suspended Overdue
+
+
+Test Case 4  		<single>
+   Member Status :  Suspended Lost Book
+
+
+Test Case 5  		<single>
+   Member Status :  Suspended General
+
+
+Test Case 6  		(Key = 1.1.1.1.)
+   Book Status   :  Available
+   Card Status   :  Valid
+   Member Status :  Good Standing
+   Num Books     :  0-9
+
+
+Test Case 7  		(Key = 1.1.1.2.)
+   Book Status   :  Available
+   Card Status   :  Valid
+   Member Status :  Good Standing
+   Num Books     :  10
+
+
+Test Case 8  		(Key = 2.1.1.1.)
+   Book Status   :  On Hold
+   Card Status   :  Valid
+   Member Status :  Good Standing
+   Num Books     :  0-9
+

@@ -1,0 +1,11 @@
+Age:
+  Minor.   [property young]
+  Adult.
+  Senior.  [property old]
+Income:
+  BP.      [property poor]
+  AP.
+Support:
+  None.
+  Aid.
+  Care.    [if (old && poor) || young]

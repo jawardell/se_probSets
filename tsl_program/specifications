@@ -1,0 +1,13 @@
+NumEmps:
+  PositionsRemaining.
+  NoPositionsRemaining. [property max]
+Emps:
+  Full.      [property full]
+  NotFull.
+E:
+  Null.   [property null]
+  NotNull.
+Added:
+  Success.   [if !full && !max && !null]
+  Fail.     
+
