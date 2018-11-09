@@ -46,8 +46,9 @@ public class Test {
 		
 		assignPoints();
 		
-		
 	}
+
+	
 
 private void assessStudentOutput() {
 	for(String exp : expectedOutput) {
