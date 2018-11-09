@@ -80,11 +80,11 @@ public class Test {
 
 		double actualError = parseActualError(exp, maxiumumError);
 
-		giveCredit(maxiumumError, actualError);
+		determineIfCorrect(maxiumumError, actualError);
 
 	}
 
-	private void giveCredit(double maxiumumError, double actualError) {
+	private void determineIfCorrect(double maxiumumError, double actualError) {
 		if (actualError <= maxiumumError) {
 			giveFullCredit();
 		} else {
