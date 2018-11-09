@@ -39,29 +39,33 @@ public class Test {
 /*	 This method is explained in the homework assignment.
 */
 	public void assess() {
+		
 		detectListInitializationErrors();
 		
-		for(String exp : expectedOutput) {
-			
-			boolean outputIsNumerical = analyzeOutput(exp);
-			
-			boolean outputIsString = !outputIsNumerical;
-			
-			
-			if(outputIsNumerical) 
-				doNumericalAssesment(exp);
-			
-			
-			if(outputIsString) 
-				doStringAssesment(exp);
-			
-		}
-		
+		assessStudentOutput();
 		
 		assignPoints();
 		
 		
 	}
+
+private void assessStudentOutput() {
+	for(String exp : expectedOutput) {
+		
+		boolean outputIsNumerical = analyzeOutput(exp);
+		
+		boolean outputIsString = !outputIsNumerical;
+		
+		
+		if(outputIsNumerical) 
+			doNumericalAssesment(exp);
+		
+		
+		if(outputIsString) 
+			doStringAssesment(exp);
+		
+	}
+}
 
 	private boolean analyzeOutput(String exp) {
 		return exp.substring(0, 2).equals("%d");
