@@ -43,7 +43,7 @@ public class Test {
 		
 		for(String exp : expectedOutput) {
 			
-			boolean outputIsNumerical = exp.substring(0, 2).equals("%d");
+			boolean outputIsNumerical = analyzeOutput(exp);
 			
 			boolean outputIsString = !outputIsNumerical;
 			
@@ -55,11 +55,22 @@ public class Test {
 			if(outputIsString) 
 				doStringAssesment(exp);
 			
-			
 		}
-		// Calculate the points earned over all results.
-		pointsEarned = (double)numCorrect/numTotal * pointsMax;
+		
+		
+		assignPoints();
+		
+		
 	}
+
+	private boolean analyzeOutput(String exp) {
+		return exp.substring(0, 2).equals("%d");
+	}
+
+private void assignPoints() {
+	// Calculate the points earned over all results.
+	pointsEarned = (double)numCorrect/numTotal * pointsMax;
+}
 
 	private void doNumericalAssesment(String exp) {
 		
@@ -67,11 +78,11 @@ public class Test {
 		
 		double actualError = parseActualError(exp, maxiumumError);
 		
-		assignPoints(maxiumumError, actualError);
+		giveCredit(maxiumumError, actualError);
 		
 	}
 
-	private void assignPoints(double maxiumumError, double actualError) {
+	private void giveCredit(double maxiumumError, double actualError) {
 		if(actualError<=maxiumumError) {
 			giveFullCredit();
 		}
@@ -162,7 +173,7 @@ private void detectListInitializationErrors() {
 			if(!isCorrect.get(i)) correct = "Incorrect";
 			String exp = expectedOutput.get(i);
 			String act = actualOutput.get(i);
-			if(exp.substring(0, 2).equals("%d")) {
+			if(analyzeOutput(exp)) {
 				// Find 4th space
 				
 				String[] tokensExp = exp.split(" ");
