@@ -1,20 +1,23 @@
 # Refac 
 
-The purpose of this assignment was to refactor a method in the TestEngine.java 
+
+<a href="https://github.com/jawardell/se_probSets">Back to Repo Root</a>
+
+
+The purpose of this assignment was to refactor a method in the Test.java 
 class. The method exhibited the long method bad-smell. Moreover, the method is 
 a bloater type of bad smell which means that the method has accumulated too much 
 code over time. Bloaters can be addressed by identifying groups of code that could 
 be removed from the large method and placed into a new sub-method, variable, or 
 logical expression. 
 
-See ``
+See `hw_refac.pdf` for the problem statement.
 
 
 Original Method:
 
 ```java
-/*	 This method is explained in the homework assignment.
-*/
+/*	 This method is explained in the homework assignment.*/
 	public void assess() {
 		// If size of expected and actual output are not the same then throw exception
 		if(expectedOutput.size()!=actualOutput.size()) {
@@ -83,3 +86,20 @@ Original Method:
 		pointsEarned = (double)numCorrect/numTotal * pointsMax;
 	}
 ```
+
+refactored method: 
+
+```java
+	public void assess() {
+
+		detectListInitializationErrors();
+
+		assessStudentOutput();
+
+		assignPoints();
+
+	}
+
+```
+
+<a href="https://github.com/jawardell/se_probSets">Back to Repo Root</a>
