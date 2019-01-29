@@ -2,7 +2,11 @@
 
 The purpose of the problem was to derive test cases using the Category Partion Method. 
 We derived test cases for a system of OO java classes modeling the following entities:
-#### Employee
+
+<table>
+<tr><th>Employee</th><th>Store</th></tr>
+<tr><td>
+
 |attribute   |data type   |
 |---|---|
 |hours              |int[]   |
@@ -21,8 +25,8 @@ We derived test cases for a system of OO java classes modeling the following ent
 |getWeekendHours   |double   |
 |toString   |String   |
 
+</td><td>
 
-### Store
 |attribute|data type|
 |---|---|
 |emps|Employee[]|
@@ -35,6 +39,9 @@ We derived test cases for a system of OO java classes modeling the following ent
 |getTotalHours|double|
 |getTotalPay|double|
 |toString|String|
+
+</td></tr> </table>
+
 
 
 Follow along in `hw_t2.pdf` to observe our derivation process. 
