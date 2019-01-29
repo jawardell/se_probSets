@@ -2,34 +2,34 @@
 
 The purpose of the problem was to derive test cases using the Category Partion Method. 
 We derived test cases for a system of OO java classes modeling the following entities:
-#### Employee
-	* **hours**: int[]
-	* **name**: String
-	* **payrate**: double
-	* **getPayRate**
-	* **getName**
-	* **Employee**
-	* **getHours**
-	* **setHours**
-	* **getNumDaysWorked**
-	* **getPay**
-	* **getTotalHours**
-	* **getWeekdayHours**
-	* **mergeEmployee**
-	* **newWeek**
-	* **getWeekendHours**
-	* **toString**
-#### Store
-	* **emps**: Employee[]
-	* **numEmps**: int
-	* **Store**
-	* **getNumEmps**
-	* **getEmp**
-	* **addEmp**
-	* **removeEmployee**
-	* **getTotalHours**
-	* **getTotalPay**
-	* **toString**
+### Employee
+* **hours**: int[]
+* **name**: String
+* **payrate**: double
+* **getPayRate**
+* **getName**
+* **Employee**
+* **getHours**
+* **setHours**
+* **getNumDaysWorked**
+* **getPay**
+* **getTotalHours**
+* **getWeekdayHours**
+* **mergeEmployee**
+* **newWeek**
+* **getWeekendHours**
+* **toString**
+### Store
+* **emps**: Employee[]
+* **numEmps**: int
+* **Store**
+* **getNumEmps**
+* **getEmp**
+* **addEmp**
+* **removeEmployee**
+* **getTotalHours**
+* **getTotalPay**
+* **toString**
 
 Follow along in the `hw_t2.pdf` document to observe our derivation process. 
 After deriving the test cases, we wrote a TSL code to generate the possible 
