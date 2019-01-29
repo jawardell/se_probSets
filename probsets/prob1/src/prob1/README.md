@@ -2,34 +2,40 @@
 
 The purpose of the problem was to derive test cases using the Category Partion Method. 
 We derived test cases for a system of OO java classes modeling the following entities:
-### Employee
-* **hours**: int[]
-* **name**: String
-* **payrate**: double
-* **getPayRate**
-* **getName**
-* **Employee**
-* **getHours**
-* **setHours**
-* **getNumDaysWorked**
-* **getPay**
-* **getTotalHours**
-* **getWeekdayHours**
-* **mergeEmployee**
-* **newWeek**
-* **getWeekendHours**
-* **toString**
+#### Employee
+|attribute   |data type   |
+|---|---|
+|hours              |int[]   |
+|name               |String   |
+|Employee           |Employee  |
+|getPayRate         |double   |
+|getName            |String   |
+|getHours           |double   |
+|setHours           |void   |
+|getNumDaysWorked   |int   |
+|getPay   |double   |
+|getTotalHours   |double   |
+|getWeekdayHours   |double   |
+|mergeEmployee   |void   |
+|newWeek   |void   |
+|getWeekendHours   |double   |
+|toString   |String   |
+
+
 ### Store
-* **emps**: Employee[]
-* **numEmps**: int
-* **Store**
-* **getNumEmps**
-* **getEmp**
-* **addEmp**
-* **removeEmployee**
-* **getTotalHours**
-* **getTotalPay**
-* **toString**
+|attribute|data type|
+|---|---|
+|emps|Employee[]|
+|numEmps|int|
+|Store|Store|
+|getNumEmps|int|
+|getEmp|Employee|
+|addEmp|void|
+|removeEmployee|void|
+|getTotalHours|double|
+|getTotalPay|double|
+|toString|String|
+
 
 Follow along in `hw_t2.pdf` to observe our derivation process. 
 
