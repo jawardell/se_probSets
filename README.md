@@ -29,3 +29,8 @@ generate our test cases.
 
 
 * The `misc/tsl_program/Specs/s1.txt.tsl` file contains the rendered test frames as output from the TSL program.
+
+
+#### Authors
+<a href="https://github.com/kdtrey">@kdtrey</a><br>
+<a href="https://github.com/jawardell">@jawardell</a>
