@@ -3,12 +3,12 @@ The file structure of this repo is the following:
 
 ```
 .
-├───probsets
-│   ├───prob1
-│   └───refac
-├───misc
-│   ├───docs
-│   └───tsl_program
+├───probsets/
+│   ├───prob1/
+│   └───refac/
+├───misc/
+│   ├───docs/
+│   └───tsl_program/
 ├───.gitignore
 └───README.md
 ```
