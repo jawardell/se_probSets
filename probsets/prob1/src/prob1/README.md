@@ -2,7 +2,7 @@
 
 The purpose of the problem was to derive test cases using the Category Partion Method. 
 We derived test cases for a system of OO java classes modeling the following entities:
-
+<center>
 <table>
 <tr><th>Employee</th><th>Store</th></tr>
 <tr><td>
@@ -41,7 +41,7 @@ We derived test cases for a system of OO java classes modeling the following ent
 |toString|String|
 
 </td></tr> </table>
-
+</center>
 
 
 Follow along in `hw_t2.pdf` to observe our derivation process. 
