@@ -25,10 +25,10 @@ The file structure of this repo is the following:
 generate our test cases.
 
 
-* The `misc/tsl_program/Specs/s1.txt` file contains our TSL specifications for `prob1`.
+* The `misc/tsl_program/specifications` file contains our TSL specifications for `prob1`.
 
 
-* The `misc/tsl_program/Specs/s1.txt.tsl` file contains the rendered test frames as output from the TSL program.
+* The `misc/tsl_program/specifications.tsl` file contains the rendered test frames as output from the TSL program.
 
 
 #### Authors
