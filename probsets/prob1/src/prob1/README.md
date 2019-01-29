@@ -31,12 +31,15 @@ We derived test cases for a system of OO java classes modeling the following ent
 * **getTotalPay**
 * **toString**
 
-Follow along in the `hw_t2.pdf` document to observe our derivation process. 
+Follow along in `hw_t2.pdf` to observe our derivation process. 
+
 After deriving the test cases, we wrote a TSL code to generate the possible 
-test cases given our constraints. Upon generation of the TSL tesk cases, we 
+test cases given our constraints. 
+
+Upon generation of the TSL tesk cases, we 
 implemented unit tests in JUnit to test our program. 
 
-To run this program: 
+#### To run this program: 
 
 * install and configure the <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">jdk</a>
  and the <a href="https://www.java.com/en/download/windows-64bit.jsp">jre</a>.</br>
