@@ -10,7 +10,7 @@ The file structure of this repo is the following:
 │   ├───docs
 │   └───tsl_program
 ├───.gitignore
-├───README.md
+└───README.md
 ```
 
 #### Navigating the Repo
