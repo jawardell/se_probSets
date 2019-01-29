@@ -1,8 +1,0 @@
-#Week Days Worked
-WDW:
-  0.
-  4.  [if !X]
-#Week Day Hours
-WDH:
-  <40.
-  >40.  [property X]

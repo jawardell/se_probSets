@@ -1,0 +1,17 @@
+# Bid
+  Amount:
+     LessThanHigh. [error]
+	EqualToHigh.  [error]
+	GreaterThanHigh.	
+  CurDate:
+      LessThanEndDate.			
+      EqualToEndDate. [error]
+	 GreaterThanEndDate. [error]
+# Auction Item
+  CurrentHigh:
+      LessThanZero.	[error]		
+      EqualToZero.			
+      GreaterThanZero.			
+  EndDate:
+      ValidDate.			
+      InvalidDate. [error]

@@ -1,0 +1,14 @@
+#Age of Person
+Age:
+  Minor.
+  Adult.
+  Senior.  [property old]
+#Income of Person
+Income:
+  BP.      [property poor]
+  AP.
+#Suppor reveived
+Support:
+  None.
+  Aid.
+  Care.    [if old && poor]
