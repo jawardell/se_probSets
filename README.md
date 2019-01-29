@@ -24,7 +24,7 @@ The `misc/tsl_program` directory contains the source code for the tsl api that w
 generate our test cases.
 
 
-The `https://github.com/jawardell/se_probSets/blob/master/misc/tsl_program/Specs/s1.txt` file contains our TSL specifications for `prob1`.
+The `misc/tsl_program/Specs/s1.txt` file contains our TSL specifications for `prob1`.
 
 
-The `https://github.com/jawardell/se_probSets/blob/master/misc/tsl_program/Specs/s1.txt.tsl` file contains the rendered test frames as output from the TSL program.
+The `misc/tsl_program/Specs/s1.txt.tsl` file contains the rendered test frames as output from the TSL program.
