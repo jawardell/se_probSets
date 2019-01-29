@@ -1,18 +1,30 @@
 # Software Engineering Problem Sets (2X)
 The file structure of this repo is the following: 
 
-```shell
+```
 .
 ├───probsets
 │   ├───prob1
 │   └───refac
 ├───misc
 │   ├───docs
-    |   ├───*java
-    |   ├───*pdf
-    |   ├───*xlsx
-    |   └───*csv
-│   └───tsl_program/*
+│   └───tsl_program
 ├───.gitignore
 ├───README.md
 ```
+
+
+The problem statements and implementation can be located in the `probsets` directory. 
+
+
+Various associative documents can be found in the `misc/docs` directory.
+
+
+The `misc/tsl_program` directory contains the source code for the tsl api that we used to 
+generate our test cases.
+
+
+The `https://github.com/jawardell/se_probSets/blob/master/misc/tsl_program/Specs/s1.txt` file contains our TSL specifications for `prob1`.
+
+
+The `https://github.com/jawardell/se_probSets/blob/master/misc/tsl_program/Specs/s1.txt.tsl` file contains the rendered test frames as output from the TSL program.
